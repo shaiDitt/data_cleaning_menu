@@ -2,6 +2,13 @@
 
 Programa em Python, executado via terminal, para limpeza, tratamento e edição de dados do dataset **Netflix Titles**, utilizando a biblioteca `pandas`.
 
+## 👥 Autoras
+
+- **Ana Larissa Souto**: [@allimasouto](https://github.com/allimasouto)
+- **Laura Carvalho**: [...]
+- **Letícia Alexandre**: [@leticia-alexandre](https://github.com/leticia-alexandre)
+- **Shaini Dittberner**: [@shaiDitt](https://github.com/shaiDitt)
+
 ## 🎯 Objetivo
 
 Facilitar tarefas comuns de um analista de dados júnior — tratar valores em falta, remover duplicados, consultar e editar registos — através de um menu interativo no terminal.
@@ -13,9 +20,9 @@ Para rodar o programa, é preciso ter na mesma pasta:
 - O script principal (`menu_limpeza_netflix.py`)
 - O ficheiro `netflix_titles_modificado.csv` (disponibilizado neste repositório)
 
-> ⚠️ O ficheiro `netflix_titles_modificado.csv` já está disponibilizado neste repositório, portanto não é necessário gerá-lo. Ele foi criado a partir do dataset original (`netflix_titles.csv`), com duplicados e valores em falta inseridos propositalmente, para permitir testar as funcionalidades de limpeza do menu.
+> ⚠️ O ficheiro `netflix_titles_modificado.csv` foi criado a partir do dataset original (`netflix_titles.csv`), com duplicados e valores em falta inseridos propositalmente, para permitir testar as funcionalidades de limpeza do menu. O ficheiro já está disponibilizado neste repositório, portanto não é necessário gerá-lo.
 
-O notebook `modulo1_refinado02.ipynb` também está incluído, mas é opcional — serve apenas para documentar a análise exploratória que originou o `netflix_titles_modificado.csv`.
+O notebook `modulo1_refinado02.ipynb` também está incluído, mas é opcional — serve apenas para documentar a análise exploratória do dataset original e as modificações feitas que deu origem ao ficheiro `netflix_titles_modificado.csv`.
 
 ## 🔧 Requisitos / Instalação
 
@@ -24,7 +31,7 @@ O notebook `modulo1_refinado02.ipynb` também está incluído, mas é opcional �
 ```bash
   pip install pandas tabulate
 ```
-  (`matplotlib` e `seaborn` são necessárias apenas caso queira executar o notebook do Módulo 1)
+  (`matplotlib` e `seaborn` são necessárias apenas se quiser executar o notebook do Módulo 1)
 
 ## ▶️ Como executar
 
@@ -48,10 +55,3 @@ O programa apresenta um menu principal com 3 módulos (Análise de Dados, Limpez
 | `historico_operacoes.txt` | Script principal | Registo de todas as operações realizadas durante a sessão |
 | `cabecalhos.xlsx` | Script principal (Módulo 3) | Template gerado ao usar a opção de inserção em lote |
 
-
-## 👥 Autores
-
-- Ana Larissa Souto
-- Laura Carvalho
-- Leticia Silva
-- Shaini Dittberner
