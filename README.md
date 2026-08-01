@@ -1,0 +1,48 @@
+# Programa de Limpeza e Gestão de Dados — Netflix Titles
+
+Programa em Python, executado via terminal, para limpeza, tratamento e edição de dados do dataset **Netflix Titles**, utilizando a biblioteca `pandas`.
+
+## 🎯 Objetivo
+
+Facilitar tarefas comuns de um analista de dados júnior — tratar valores em falta, remover duplicados, consultar e editar registos — através de um menu interativo no terminal.
+
+## 📁 Arquivos necessários
+
+Para rodar o programa, é preciso ter na mesma pasta:
+
+- O script principal (`menu_limpeza_dados.py`)
+- O ficheiro `netflix_titles_modificado.csv` (disponibilizado neste repositório)
+
+> ⚠️ O ficheiro `netflix_titles_modificado.csv` já está disponibilizado neste repositório, portanto não é necessário gerá-lo. Ele foi criado a partir do dataset original (`netflix_titles.csv`), com duplicados e valores em falta inseridos propositalmente, para permitir testar as funcionalidades de limpeza do menu.
+
+O notebook `modulo1_refinado02.ipynb` também está incluído, mas é opcional — serve apenas para documentar a análise exploratória que originou o `netflix_titles_modificado.csv`.
+
+## 🔧 Requisitos / Instalação
+
+- Python 3.x
+- Bibliotecas:
+```bash
+  pip install pandas tabulate
+```
+  (`matplotlib` e `seaborn` são necessárias apenas caso queira executar o notebook do Módulo 1)
+
+## ▶️ Como executar
+
+```bash
+python nome_do_script.py
+```
+
+O programa apresenta um menu principal com 3 módulos (Análise de Dados, Limpeza e Tratamento de Dados, e Gestão do Ficheiro). Ao sair (opção 4), as alterações são salvas em `netflix_titles_modificado.csv` e um histórico das operações é gerado em `historico_operacoes.txt`.
+
+## ⚙️ Funcionalidades
+
+- **Módulo 1** — Análise exploratória dos dados (notebook)
+- **Módulo 2** — Limpeza e tratamento de dados (valores em falta, duplicados, colunas)
+- **Módulo 3** — Consulta e edição de registos (Excel)
+
+## 👥 Autores
+
+- Ana Larissa Souto
+- Laura Carvalho
+- Leticia Silva
+- Shaini Dittberner
