@@ -29,7 +29,7 @@ O notebook `modulo1_refinado02.ipynb` também está incluído, mas é opcional �
 - Python 3.x
 - Bibliotecas:
 ```bash
-  pip install pandas tabulate
+  pip install pandas
 ```
   (`matplotlib` e `seaborn` são necessárias apenas se quiser executar o notebook do Módulo 1)
 
