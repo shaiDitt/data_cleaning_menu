@@ -36,7 +36,7 @@ O notebook `notebook_modulo_01.ipynb` também está incluído, mas é opcional �
 ## ▶️ Como executar
 
 ```bash
-python gestao_dados_netflix.py
+python menu_limpeza_netflix.py
 ```
 
 O programa apresenta um menu principal com 3 módulos (Análise de Dados, Limpeza e Tratamento de Dados, e Gestão do Ficheiro). Ao sair (opção 4), as alterações são salvas em `netflix_titles_modificado.csv` e um histórico das operações é gerado em `historico_operacoes.txt`.
