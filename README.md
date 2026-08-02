@@ -22,7 +22,7 @@ Para rodar o programa, é preciso ter na mesma pasta:
 
 > ⚠️ O ficheiro `netflix_titles_modificado.csv` foi criado a partir do dataset original (`netflix_titles.csv`), com duplicados e valores em falta inseridos propositalmente, para permitir testar as funcionalidades de limpeza do menu. O ficheiro já está disponibilizado neste repositório, portanto não é necessário gerá-lo.
 
-O notebook `modulo1_refinado02.ipynb` também está incluído, mas é opcional — serve apenas para documentar a análise exploratória do dataset original e as modificações feitas que deu origem ao ficheiro `netflix_titles_modificado.csv`.
+O notebook `notebook_modulo_01.ipynb` também está incluído, mas é opcional — serve apenas para documentar a análise exploratória do dataset original e as modificações feitas que deu origem ao ficheiro `netflix_titles_modificado.csv`.
 
 ## 🔧 Requisitos / Instalação
 
@@ -51,7 +51,7 @@ O programa apresenta um menu principal com 3 módulos (Análise de Dados, Limpez
 
 | Ficheiro | Origem | Descrição |
 |---|---|---|
-| `netflix_titles_modificado.csv` | Já disponibilizado no repositório, mas gerado na execução do `modulo1_refinado02.ipynb`; depois sobrescrito ao salvar alterações no menu | Dataset de testes/atualizado com as alterações feitas |
+| `netflix_titles_modificado.csv` | Já disponibilizado no repositório, mas gerado na execução do `notebook_modulo_01.ipynb`; depois sobrescrito ao salvar alterações no menu | Dataset de testes/atualizado com as alterações feitas |
 | `historico_operacoes.txt` | Script principal | Registo de todas as operações realizadas durante a sessão |
 | `cabecalhos.xlsx` | Script principal (Módulo 3) | Template gerado ao usar a opção de inserção em lote |
 
