@@ -5,7 +5,7 @@ Programa em Python, executado via terminal, para limpeza, tratamento e edição 
 ## 👥 Autoras
 
 - **Ana Larissa Souto**: [@allimasouto](https://github.com/allimasouto)
-- **Laura Carvalho**: [...]
+- **Laura Carvalho**: [[@lpcarvalho712-rgb](https://github.com/lpcarvalho712-rgb))
 - **Letícia Alexandre**: [@leticia-alexandre](https://github.com/leticia-alexandre)
 - **Shaini Dittberner**: [@shaiDitt](https://github.com/shaiDitt)
 
